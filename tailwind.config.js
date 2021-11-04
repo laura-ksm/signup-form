@@ -9,7 +9,11 @@ module.exports = {
     },
   },
   variants: {
-    extend: {},
+    extend: {
+      maxHeight: ['focus'],
+    },
   },
-  plugins: [],
+  plugins: [
+    require('@tailwindcss/forms')
+  ],
 }
