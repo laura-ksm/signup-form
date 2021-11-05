@@ -19,13 +19,14 @@ const App = () => {
               </div>
             </div>
             <div className="p-4">
-              <div className="px-8 py-6 max-w-sm mx-auto bg-white rounded-xl shadow-2xl items-center">
+              <div className="max-w-md mx-auto bg-white rounded-xl shadow-2xl items-center">
                 <form>
-                  <input className="border border-gray-300 rounded w-full py-2 px-3 mb-2 text-gray-700 leading-tight focus:border-gray-600" type="text" placeholder="First Name"/>
-                  <input className="border border-gray-300 rounded w-full py-2 px-3 mb-2 text-gray-700 leading-tight focus:border-gray-600" type="text" placeholder="Last Name"/>
-                  <input className="border border-gray-300 rounded w-full py-2 px-3 mb-2 text-gray-700 leading-tight focus:border-gray-600" type="email" placeholder="Email Address"/>
-                  <input className="border border-gray-300 rounded w-full py-2 px-3 mb-2 text-gray-700 leading-tight focus:border-gray-600" type="password" placeholder="Password"/>
-                  <button className="py-2 px-4 font-semibold rounded-lg shadow-md text-white bg-green-400 hover:bg-green-200">CLAIM YOUR FREE TRIAL</button>
+                  <input className="border border-gray-300 rounded w-full py-2 px-3 my-2 mx-4 text-gray-700 leading-tight focus:border-gray-600" type="text" placeholder="First Name"/>
+                  <input className="border border-gray-300 rounded w-full py-2 px-3 my-2 mx-4 text-gray-700 leading-tight focus:border-gray-600" type="text" placeholder="Last Name"/>
+                  <input className="border border-gray-300 rounded w-full py-2 px-3 my-2 mx-4 text-gray-700 leading-tight focus:border-gray-600" type="email" placeholder="Email Address"/>
+                  <input className="border border-gray-300 rounded w-full py-2 px-3 my-2 mx-4 text-gray-700 leading-tight focus:border-gray-600" type="password" placeholder="Password"/>
+                  <button className="w-full py-4 font-semibold rounded-lg shadow-inner uppercase text-xs text-white bg-green-400 hover:bg-green-200">claim your free trial</button>
+                  <div className="py-3 text-xs text-gray-300">By cliking the button, you are agreeing to our <span className="text-pink-700 text-xs font-bold">Terms and Services</span> </div>
                 </form>
               </div>
             </div>
